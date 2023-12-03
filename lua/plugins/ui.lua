@@ -95,8 +95,7 @@ return {
 		event = "VeryLazy",
 		opts = {
 			options = {
-				globalstatus = false,
-				theme = "gruvbox",
+				section_separators = { left = "", right = "" },
 			},
 		},
 	},
