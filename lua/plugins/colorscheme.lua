@@ -49,13 +49,13 @@ return {
 	-- 		vim.g.moonflyTransparent = true
 	-- 	end,
 	-- },
-	-- {
-	-- 	"bluz71/vim-nightfly-colors",
-	-- 	name = "nightfly",
-	-- 	lazy = false,
-	-- 	priority = 1000,
-	-- 	config = function()
-	-- 		vim.g.nightflyTransparent = true
-	-- 	end,
-	-- },
+	{
+		"bluz71/vim-nightfly-colors",
+		name = "nightfly",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			vim.g.nightflyTransparent = false
+		end,
+	},
 }

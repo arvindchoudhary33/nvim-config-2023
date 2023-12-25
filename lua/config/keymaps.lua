@@ -1,11 +1,14 @@
 local discipline = require("a33.discipline")
 
-discipline.cowboy()
+-- discipline.cowboy()
 
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
 keymap.set("n", "x", '"_x')
+
+-- Disable q from recording a macro
+keymap.set("n", "q", "<Nop>", opts)
 
 -- Increment/decrement
 keymap.set("n", "+", "<C-a>")
