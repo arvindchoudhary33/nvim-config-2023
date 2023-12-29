@@ -21,7 +21,7 @@ require("lazy").setup({
 				change_detection = {
 					notify = false,
 				},
-				colorscheme = "rose-pine",
+				colorscheme = "solarized-osaka",
 				news = {
 					lazyvim = true,
 					neovim = true,

@@ -27,6 +27,27 @@ return {
 			},
 		},
 	},
+	-- {
+	-- 	"rebelot/kanagawa.nvim",
+	-- 	lazy = false,
+	-- 	priority = 1000,
+	--
+	-- 	config = function()
+	-- 		require("kanagawa").setup({
+	-- 			globalStatus = true,
+	-- 			overrides = function(colors)
+	-- 				return {
+	-- 					FloatBorder = { bg = "NONE" },
+	-- 					NormalFloat = { bg = "NONE" },
+	-- 					LineNr = { bg = "NONE" },
+	-- 					SignColumn = { bg = "NONE" },
+	-- 					FloatTitle = { bg = "NONE" },
+	-- 				}
+	-- 			end,
+	-- 		})
+	-- 		vim.cmd.colorscheme("kanagawa")
+	-- 	end,
+	-- },
 	{
 		"folke/tokyonight.nvim",
 		lazy = false,
@@ -38,24 +59,5 @@ return {
 				floats = "transparent",
 			},
 		},
-	},
-	-- {
-	-- 	"bluz71/vim-moonfly-colors",
-	-- 	name = "moonfly",
-	-- 	lazy = false,
-	-- 	priority = 1000,
-	--
-	-- 	config = function()
-	-- 		vim.g.moonflyTransparent = true
-	-- 	end,
-	-- },
-	{
-		"bluz71/vim-nightfly-colors",
-		name = "nightfly",
-		lazy = false,
-		priority = 1000,
-		config = function()
-			vim.g.nightflyTransparent = false
-		end,
 	},
 }
