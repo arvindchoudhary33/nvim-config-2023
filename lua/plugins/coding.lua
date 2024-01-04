@@ -90,6 +90,8 @@ return {
 	{
 		"nvim-cmp",
 		dependencies = { "hrsh7th/cmp-emoji" },
+		sources = { name = "cody", group_index = 2 },
+
 		opts = function(_, opts)
 			table.insert(opts.sources, { name = "emoji" })
 		end,
@@ -113,4 +115,18 @@ return {
 		config = true,
 	},
 	{ "jayden-chan/base46.nvim" },
+	-- Source graph integration
+	-- cody
+	-- {
+	-- 	"sourcegraph/sg.nvim",
+	-- 	dependencies = { "nvim-lua/plenary.nvim" },
+	-- 	--
+	-- 	-- -- If you have a recent version of lazy.nvim, you don't need to add this!
+	-- 	-- build = "nvim -l build/init.lua",
+	-- },
+	{
+		"sourcegraph/sg.nvim",
+		opts = {},
+		dependencies = { "nvim-lua/plenary.nvim" },
+	},
 }

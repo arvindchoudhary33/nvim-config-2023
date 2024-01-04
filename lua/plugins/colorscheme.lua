@@ -61,4 +61,9 @@ return {
 		},
 	},
 	{ "sainnhe/gruvbox-material", lazy = false, priority = 1000 },
+	{
+		"gbprod/nord.nvim",
+		lazy = false,
+		priority = 1000,
+	},
 }

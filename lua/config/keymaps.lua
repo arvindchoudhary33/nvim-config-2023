@@ -60,3 +60,17 @@ end)
 
 -- Muren ( replace and update multiple words )
 keymap.set("n", "fr", ":MurenToggle<Return>")
+
+-- Source graph cody keymaps
+
+-- keymap.set("n", "<leader>ca", "<cmd>CodyAsk<cr>", opts)
+-- keymap.set("v", "<leader>ca", "<esc><cmd>CodyAsk<cr>", opts)
+--
+-- keymap.set("n", "<leader>cd", "<cmd>CodyDo<cr>", opts)
+-- keymap.set("v", "<leader>cd", "<esc><cmd>CodyDo<cr>", opts)
+--
+-- keymap.set("n", "<leader>cc", "<cmd>CodyCode<cr>", opts)
+-- keymap.set("v", "<leader>cc", "<esc><cmd>CodyCode<cr>", opts)
+--
+-- keymap.set("n", "<leader>ce", "<cmd>CodyExplain<cr>", opts)
+-- keymap.set("v", "<leader>ce", "<esc><cmd>CodyExplain<cr>", opts)
