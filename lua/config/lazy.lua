@@ -11,6 +11,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+require("config.custom_functions")
 require("lazy").setup({
 	spec = {
 		-- add LazyVim and import its plugins
@@ -21,7 +22,7 @@ require("lazy").setup({
 				change_detection = {
 					notify = false,
 				},
-				colorscheme = "solarized-osaka",
+				colorscheme = "edge",
 				news = {
 					lazyvim = true,
 					neovim = true,

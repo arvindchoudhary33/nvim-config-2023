@@ -132,4 +132,6 @@ return {
 
 	-- solve merge conflicts
 	{ "akinsho/git-conflict.nvim", version = "*", config = true },
+	-- toggle term
+	{ "akinsho/toggleterm.nvim", version = "*", config = true },
 }

@@ -1,3 +1,5 @@
+vim.g.edge_transparent_background = 2
+
 return {
 	{
 		"rose-pine/neovim",
@@ -53,7 +55,7 @@ return {
 		lazy = false,
 		priority = 1000,
 		opts = {
-			transparent = true,
+			transparent = false,
 			styles = {
 				sidebars = "transparent",
 				floats = "transparent",
@@ -66,4 +68,5 @@ return {
 		lazy = false,
 		priority = 1000,
 	},
+	{ "sainnhe/edge", lazy = false, priority = 1000 },
 }

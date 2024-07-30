@@ -61,6 +61,9 @@ end)
 -- Muren ( replace and update multiple words )
 keymap.set("n", "fr", ":MurenToggle<Return>")
 
+-- Toggle term
+keymap.set("n", "<leader>t", ":ToggleTerm<cr>", opts)
+
 -- Source graph cody keymaps
 
 -- keymap.set("n", "<leader>ca", "<cmd>CodyAsk<cr>", opts)

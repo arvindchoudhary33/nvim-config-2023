@@ -1,0 +1,13 @@
+-- --
+-- function ToggleEdgeTransparentBackground()
+-- 	if vim.g.edge_transparent_background == 2 then
+-- 		vim.g.edge_transparent_background = 0
+-- 	else
+-- 		vim.g.edge_transparent_background = 2
+-- 	end
+-- 	vim.cmd([[colorscheme edge]])
+-- end
+--
+-- vim.api.nvim_create_user_command("ToggleEdgeBackground", ToggleEdgeTransparentBackground, {})
+-- -- Set the keymap for 'bt' in normal mode to call the function directly ( background-transparent)
+-- vim.api.nvim_set_keymap("n", "bt", ":lua ToggleEdgeTransparentBackground()<CR>", { noremap = true, silent = true })
