@@ -9,6 +9,9 @@ return {
 				hide_gitignored = true,
 				hide_by_name = {
 					"__pycache__",
+					".git",
+					".vite",
+					".husky",
 					-- '.DS_Store',
 					-- 'thumbs.db',
 				},
